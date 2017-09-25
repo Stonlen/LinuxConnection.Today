@@ -1,0 +1,117 @@
+/*
+  Default Color Scheme
+  shade 0 = #2E4272 = rgb( 46, 66,114) = rgba( 46, 66,114,1) = rgb0(0.18,0.259,0.447)
+  shade 1 = #7887AB = rgb(120,135,171) = rgba(120,135,171,1) = rgb0(0.471,0.529,0.671)
+  shade 2 = #4F628E = rgb( 79, 98,142) = rgba( 79, 98,142,1) = rgb0(0.31,0.384,0.557)
+  shade 3 = #162955 = rgb( 22, 41, 85) = rgba( 22, 41, 85,1) = rgb0(0.086,0.161,0.333)
+  shade 4 = #061539 = rgb(  6, 21, 57) = rgba(  6, 21, 57,1) = rgb0(0.024,0.082,0.224)
+*/
+#space{
+  min-height: 500px;
+}
+
+ul{
+  list-style: none;
+}
+/*#heading {
+  background: #061539;
+  color: #bbc7e4;
+  text-align: center;
+}*/
+aside h3 {
+  background: #2E4272;
+  color: #bbc7e4;
+}
+footer{
+  min-height: 100px;
+  background: #061539;
+  color:#bbc7e4 ;
+}
+footer p {
+margin-top:40px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+
+div .jumbotron{
+  background-image: url('img/jumbo.png');
+
+}
+
+
+
+
+.navbar-default {
+  background-color: #061539;
+  border-color: #7887ab;
+  margin-bottom: 0;
+}
+.navbar-default .navbar-brand {
+  color: #bbc7e4;
+
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #061539;
+  background-color: #bbc7e4;
+  font-size: 1.5em;
+}
+.navbar-default .navbar-text {
+  color: #bbc7e4;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #bbc7e4;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #061539;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #061539;
+  background-color: #7887ab;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #061539;
+  background-color: #7887ab;
+}
+.navbar-default .navbar-toggle {
+  border-color: #7887ab;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #7887ab;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #bbc7e4;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #bbc7e4;
+}
+.navbar-default .navbar-link {
+  color: #bbc7e4;
+}
+.navbar-default .navbar-link:hover {
+  color: #061539;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #bbc7e4;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #061539;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #061539;
+    background-color: #7887ab;
+  }
+}
